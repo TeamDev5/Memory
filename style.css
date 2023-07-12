@@ -1,0 +1,55 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.popup-content{
+    background-color: black;
+    opacity: 95%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;/*flex a la fin*/
+    align-items: center;
+    justify-content: center;
+}
+
+.popup{
+    background-color: #21364e;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+.done{
+    color: red;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.popup button{
+    cursor: pointer;
+    background-color: #fff;
+    column-rule: #354961;
+    border: 0;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.popup button:active{
+    transform: scale(0.98);
+}
+
+.popup button:focus{
+    outline: 0;
+}
